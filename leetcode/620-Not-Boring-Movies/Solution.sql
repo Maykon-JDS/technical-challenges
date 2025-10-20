@@ -1,0 +1,1 @@
+SELECT * FROM Cinema WHERE MOD(id, 2) <> 0 AND (description not like "%boring%")  ORDER BY rating DESC;
